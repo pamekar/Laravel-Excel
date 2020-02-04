@@ -1,6 +1,6 @@
 {
   "name": "convenia/excel",
-  "description": "Supercharged Excel exports in Laravel",
+  "description": "Fork of Maatwebsite for reasons of incompatibility with php >= 7.4 --- of Supercharged Excel exports in Laravel",
   "license": "MIT",
   "keywords": [
     "laravel",
@@ -15,11 +15,15 @@
     {
       "name": "Maatwebsite.nl",
       "email": "patrick@maatwebsite.nl"
+    },
+    {
+      "name": "Convenia",
+      "email": "devs@convenia.com.br"
     }
   ],
   "require": {
     "php": ">=5.5",
-    "convenia/excel-manager": "dev-master",
+    "convenia/excel-manager": "^1.9",
     "illuminate/cache": "^5.0|^6.0",
     "illuminate/config": "^5.0|^6.0",
     "illuminate/filesystem": "^5.0|^6.0",
