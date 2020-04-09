@@ -1,4 +1,6 @@
-## Laravel Excel v2.1.* for Laravel 5 - Fork of Maatwebsite/Laravel-Excel to keep using v2 with php >=7.4
+## Laravel Excel v2.1.* for Laravel 
+
+## This repository is a fork of Maatwebsite/Laravel-Excel to keep using v2 with php >=7.4
 
 
 ---
@@ -22,7 +24,7 @@ Excel::create('Laravel Excel', function($excel) {
 Require this package in your `composer.json` and update composer. This will download the package and PHPExcel of PHPOffice.
 
 ```php
-composer require "convenia/excel:~2.2.0"
+composer require "convenia/excel:~2.2.*"
 ```
 
 In Laravel 5.5 or higher, this package will be automatically discovered and you can safely skip the following two steps.
