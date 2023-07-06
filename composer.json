@@ -1,5 +1,5 @@
 {
-  "name": "convenia/excel",
+  "name": "pamekar/excel",
   "description": "Fork of Maatwebsite for reasons of incompatibility with php >= 7.4 --- of Supercharged Excel exports in Laravel",
   "license": "MIT",
   "keywords": [
